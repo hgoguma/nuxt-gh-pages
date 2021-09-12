@@ -1,10 +1,13 @@
 export default {
+  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
+  ssr: false,
   target: 'static',
   route: {
     base: '/nuxt-gh-pages/'
   },
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  env: {
+    dev: false
+  },
   head: {
     title: 'nuxt-gh-pages',
     htmlAttrs: {
