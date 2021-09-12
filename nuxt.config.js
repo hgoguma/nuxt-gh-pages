@@ -1,12 +1,14 @@
 export default {
+  target: 'static',
+  route: {
+    base: 'nuxt-gh-pages'
+  },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
-
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt-gh-pages',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ko'
     },
     meta: [
       { charset: 'utf-8' },
