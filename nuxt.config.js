@@ -2,7 +2,7 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
   target: 'static',
-  route: {
+  router: {
     base: '/nuxt-gh-pages/'
   },
   env: {
@@ -11,7 +11,7 @@ export default {
   head: {
     title: 'nuxt-gh-pages',
     htmlAttrs: {
-      lang: 'ko'
+      lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
@@ -45,5 +45,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    standalone: true
   }
 }
