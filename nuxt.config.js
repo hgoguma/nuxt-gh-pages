@@ -4,7 +4,7 @@ export default {
     base: '/nuxt-gh-pages/'
   },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  // ssr: false,
   head: {
     title: 'nuxt-gh-pages',
     htmlAttrs: {
