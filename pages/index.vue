@@ -1,7 +1,12 @@
 <template>
-  <Tutorial/>
+  <fileUpload/>
 </template>
 
 <script>
-export default {}
+import fileUpload from '@/components/fileUpload'
+export default {
+  components: {
+    fileUpload
+  }
+}
 </script>
